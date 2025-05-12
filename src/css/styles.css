@@ -51,11 +51,3 @@ h1 {
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    #pagosList {
-        overflow-x: auto;
-    }
-    #pagosList table {
-        min-width: 600px;
-    }
-}

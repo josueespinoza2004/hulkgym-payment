@@ -230,7 +230,8 @@ function aplicarFiltros(callback) {
     pagosList.innerHTML = '<p>No hay pagos registrados.</p>';
     return;
   }
-  let html = `<table class="table table-bordered table-striped table-hover">
+  let html = `<div class="table-responsive">
+  <table class="table table-bordered table-striped table-hover">
     <thead>
       <tr>
         <th>Nombre</th>

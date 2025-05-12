@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.notification {
+    background-color: #ffcccb;
+    color: #d8000c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none; /* Hidden by default */
+}
+
+.expired {
+    color: red;
+    font-weight: bold;
+}
+
+.remaining-days {
+    color: green;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #pagosList {
+        overflow-x: auto;
+    }
+    #pagosList table {
+        min-width: 600px;
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "gym-payment-control",
+  "version": "1.0.0",
+  "description": "A gym payment control system with CRUD functionality and filtering options.",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "gym",
+    "payment",
+    "control",
+    "CRUD",
+    "JavaScript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "supabase-js": "^1.0.0"
+  }
+}
